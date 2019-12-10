@@ -34,17 +34,17 @@
 using namespace std;
 namespace @NAMESPACE@ {
 
-	static const std::string InputFileName = "@INPUT_FILE_NAME@";
-	std::string solvea() {
+    static const std::string InputFileName = "@INPUT_FILE_NAME@";
+    std::string solvea() {
         auto input = parseFileForLines(InputFileName);
 
 		return "---";
-	}
+    }
 
-	std::string solveb() {
+    std::string solveb() {
         auto input = parseFileForLines(InputFileName);
 
 		return "---";
-	}
+    }
 
 }

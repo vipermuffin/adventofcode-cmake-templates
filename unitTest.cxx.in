@@ -13,32 +13,32 @@
 #include <string>
 
 namespace @NAMESPACE@{
-	extern std::string solvea();
-	extern std::string solveb();
+    extern std::string solvea();
+    extern std::string solveb();
 }
 
 using namespace std;
 using namespace @NAMESPACE@;
 
-TEST(SolvePartA, FinalSolution) {
-	EXPECT_EQ("---", solvea());
+TEST(Y@YEAR@_SolveDay@DAY@, FinalSolutionPartA) {
+    EXPECT_EQ("---", solvea());
 }
 
-TEST(SolvePartB, FinalSolution) {
-	EXPECT_EQ("---", solveb());
+TEST(Y@YEAR@_SolveDay@DAY@, FinalSolutionPartB) {
+    EXPECT_EQ("---", solveb());
 }
 
-TEST(Example,Test1) {
-	int x = 0;
-	EXPECT_EQ(0,x);
+TEST(Y@YEAR@_Day@DAY@Example,Test1) {
+    int x = 0;
+    EXPECT_EQ(0,x);
 }
 
-TEST(Example,Test2) {
-	int x = 0;
-	EXPECT_EQ(0,x);
+TEST(Y@YEAR@_Day@DAY@Example,Test2) {
+    int x = 0;
+    EXPECT_EQ(0,x);
 }
 
-TEST(Example,Test3) {
-	int x = 0;
-	EXPECT_EQ(0,x);
+TEST(Y@YEAR@_Day@DAY@Example,Test3) {
+    int x = 0;
+    EXPECT_EQ(0,x);
 }

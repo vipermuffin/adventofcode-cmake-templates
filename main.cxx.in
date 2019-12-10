@@ -11,14 +11,14 @@
 #include <iostream>
 
 namespace @NAMESPACE@{
-   extern std::string solvea();
-   extern std::string solveb();
+    extern std::string solvea();
+    extern std::string solveb();
 }
 using namespace std;
 
 int main(int argc, char *argv[]) {
 
-	std::cout << "@DAY_PREFIX@" << "a: " << @NAMESPACE@::solvea() << std::endl;
-	std::cout << "@DAY_PREFIX@" << "b: " << @NAMESPACE@::solveb() << std::endl;
-	return 0;
+    std::cout << "@DAY_PREFIX@" << "a: " << @NAMESPACE@::solvea() << std::endl;
+    std::cout << "@DAY_PREFIX@" << "b: " << @NAMESPACE@::solveb() << std::endl;
+    return 0;
 }
