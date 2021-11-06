@@ -4,7 +4,7 @@
 //  https://adventofcode.com/@YEAR@
 //
 //  Created by vipermuffin on @TODAY@.
-//  Copyright © @YEAR@ vipermuffin. All rights reserved.
+//  Copyright © @TODAY_YEAR@ vipermuffin. All rights reserved.
 //
 #include <stdio.h>
 #include <string>
